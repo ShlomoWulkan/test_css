@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;    
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.nev {
+    background-color: rgb(17, 65, 17);
+    width: 100%;   
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    background-color: rgb(190, 179, 179);
+    width: 100%;
+    height: 81%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.botton {
+    background-color:rgb(17, 65, 17);
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstLine {
+    background-color: rgb(7, 32, 7);
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nevContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.links{
+    margin-left: 4%;
+}
+
+.firstBox {
+    background-color: white;    
+    width: 96%;
+    height: 30%;
+    margin-bottom: 2%;
+    border-radius: 7px;
+    display: flex;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+p{
+    margin-left: 2%;
+
+}
+.secondBox {
+    background-color: rgb(128, 122, 122);
+    width: 96%;
+    height:65%;
+    border-radius: 7px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.middleBox{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin-left: 2%;
+}
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    margin-left: 2%;
+}
+
+select{
+    margin-left: 2%;
+}

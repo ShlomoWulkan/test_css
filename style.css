@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;    
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper {
+    background-color: blueviolet;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.nev {
+    background-color: rgb(17, 65, 17);
+    width: 100%;   
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    background-color: rgb(190, 179, 179);
+    width: 100%;
+    height: 81%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.botton {
+    background-color:rgb(17, 65, 17);
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstLine {
+    background-color: rgb(7, 32, 7);
+    width: 93%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nevContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.links{
+    margin-left: 4%;
+}
+
+.firstBox {
+    background-color: white;    
+    width: 96%;
+    height: 20%;
+    margin-bottom: 2%;
+    border-radius: 7px;
+    display: flex;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+p{
+    margin-left: 2%;
+
+}
+.secondBox {
+    background-color: white;
+    width: 96%;
+    height:73%;
+    border-radius: 7px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innerBox{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkBoxes{
+    background-color: rgb(177, 199, 199);
+    width: 100%;
+    height: 15%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linkBoxes:hover {
+    background-color: rgb(139, 153, 155);
+    
+}
+
+.link{
+    margin-left: 5%;
+    height: 100%;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sumText{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+mark{
+    border-radius: 3px;
+    color: blue;
+}
